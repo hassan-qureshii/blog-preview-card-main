@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height:100vh;
+  background-color: hsl(47, 88%, 63%);
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+nav {
+  border: 2px solid hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 6px 6px 2px hsl(0, 0%, 7%);
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  width: 98%;
+  height: auto;
+  padding: 20px 20px 0px 20px;
+}
+
+button {
+  font-size: 18px;
+  color: hsl(0, 0%, 7%);
+  margin: 5px 0px 0px 25px;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 15px 0px 10px 25px;
+}
+
+.text h1 {
+  font-size: 25px;
+  padding: 5px 25px;
+}
+
+.text p {
+  padding: 5px 0px 5px 25px;
+  width:500px;
+  line-height:20px;
+}
+
+.profile img {
+  padding: 10px 0px 10px 25px;
+}
+
+.profile p {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 0px 0px 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .text h1 {
+    font-size: 25px;
+  }
+  .text p {
+    width: 350px;
+  }
+}
